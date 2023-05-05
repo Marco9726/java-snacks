@@ -24,9 +24,9 @@ public class Snack5 {
 		
 		double mediaDispari = 0;
 		
-		int minimo = 101;
+		int minimo = Integer.MAX_VALUE;
 		
-		int massimo = 0;
+		int massimo = Integer.MIN_VALUE;
 		
 		for ( int i = 0; i < numero; i++) {
 			
