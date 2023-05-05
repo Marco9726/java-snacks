@@ -5,11 +5,10 @@ public class Snack3 {
 		int[] numeri = { 4,2,3,7,5,8,9,1,6 };
 		
 		int somma = 0;
-		for( int i = 0; i < numeri.length; i++) {
+		for( int i = 0; i < numeri.length; i+=2) {
 			
-			if ( i % 2 == 0) {
-				somma += numeri[i];
-			}
+			somma += numeri[i];
+
 		}
 		
 		System.out.println(somma);
