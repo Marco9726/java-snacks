@@ -32,8 +32,8 @@ public class Snack8 {
 			}
 		}
 		
-//		System.out.println(Arrays.asList(evenArr));
-//		System.out.println(Arrays.asList(oddArr));
+		System.out.println(Arrays.asList(evenArr));
+		System.out.println(Arrays.asList(oddArr));
 //		
 //		Integer[] strippedPairArr = new Integer[pairInd];
 //		Integer[] strippedOddArr = new Integer[oddInd];
