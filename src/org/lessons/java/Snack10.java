@@ -9,6 +9,8 @@ public class Snack10 {
 		System.out.println("Inserire valore per il raggio: ");
 		int raggio = in.nextInt();
 		
+		in.close();
+		
 		double area = raggio * raggio * 3.14;
 		double circonferenza = 2 * raggio * 3.14;
 		

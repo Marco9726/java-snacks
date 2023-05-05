@@ -11,6 +11,8 @@ public class Snack9 {
 		System.out.println("Inserire valore per l'altezza: ");
 		int altezza = in.nextInt();
 		
+		in.close();
+		
 		int area = base * altezza;
 		
 		int perimetro = 2 * base + 2 * altezza;

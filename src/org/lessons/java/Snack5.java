@@ -12,6 +12,8 @@ public class Snack5 {
 		
 		Random r = new Random();
 		
+		in.close();
+		
 		int numero = in.nextInt();
 		
 		int somma = 0;
